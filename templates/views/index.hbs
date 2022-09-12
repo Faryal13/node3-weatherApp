@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Main</title>
+<link rel="stylesheet" href="css/style.css">
+
+    </head>
+    <body>
+        <div class="main-content">
+ {{>header}}
+ <p>Use this site to get weather!!</p>
+
+<form>
+
+    <input placeholder="location">
+    <button type="submit">Search</button>
+
+</form>
+        <p id="data1"></p>
+         <p id="data2"></p>
+          <p id="data3"></p>
+            <p id="data4"></p>
+        <p id="error"></p>
+        </div>
+          
+         {{>footer}}
+         <script src="js/app.js"></script>
+    </body>
+</html>
